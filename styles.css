@@ -125,12 +125,17 @@ header ul {
 }
 @media only screen and (max-width: 900px) {
   header {
+    min-height: 75px;
     height: auto;
   }
   header ul {
     font-size: 1.2em;
     flex-flow: column;
     padding-bottom: 1em;
+    color: white;
+  }
+  section {
+    padding: 8px;
   }
 }
 @media only screen and (min-width: 901px) {
